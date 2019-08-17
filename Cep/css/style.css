@@ -1,0 +1,62 @@
+.cep-control
+{
+    display:grid;
+    grid-template-columns: 1fr;
+    /* grid-template-rows:  10px 10px 10px 10px 10px; */
+    padding-top: 2px;
+    font-family: SegoeUI, "Segoe UI";
+    font-weight: 400;
+    white-space: normal;
+    font-size: 14px;
+}
+
+.cep-control  > div
+{
+    text-align: left;
+    border-bottom: 1px solid #d8d8d8;
+    padding-top: 15px;
+    height:49px;
+    padding-bottom: 20px;
+}
+
+.cep-control > div:last-child
+{
+    border-bottom: none;
+}
+
+
+.cep-control  > div > input
+{
+    width: 65%;
+    height: 2rem;
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    -webkit-appearance: textfield;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+}
+
+.label
+{
+    display:inline-block;
+    width: 30%;
+    text-align: left;
+    /* padding-right: 5px; */
+    padding-left: 15px;
+    
+}
+
+.wrong
+{
+    color:#fa5555 !important;
+}
