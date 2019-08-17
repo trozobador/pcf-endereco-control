@@ -1,6 +1,8 @@
 # Componente Endereço para Dynamics 365
 Componente de PowerApps Framework de Endereço para Dynamics 365, que utiliza a api do [ViaCep](http://www.viacep.com.br) para obter os dados de endereço.
 
+![atl-text](https://github.com/michaelfp/pcf-endereco-control/blob/master/example/pcf-control-cep-example.jpg)
+
 O utilizando o controle é possível obter 4 valores de saida:
   - Logradouro: Representa o endereço
   - Cidade: Representa a cidade localizada a partir do CEP
