@@ -319,7 +319,7 @@ export class Cep implements ComponentFramework.StandardControl<IInputs, IOutputs
 
 	private buscaCep(cep:string):void{
 
-		
+		cep = cep.substring(0, 5) + "-" + cep.substring(5);
 		if(cep !== "" && cep.length === 9)
 		{
 			const webRequest = require('https');
